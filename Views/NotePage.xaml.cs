@@ -51,8 +51,7 @@ public partial class NotePage : ContentPage
         BindingContext = noteModel;
     }
 
-    [QueryProperty(nameof(ItemId), nameof(ItemId))]
-    public partial class NotePage : ContentPage;
+   
 
     public string ItemId
     {
