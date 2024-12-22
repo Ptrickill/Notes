@@ -58,5 +58,7 @@ File.WriteAllText(System.IO.Path.Combine(FileSystem.AppDataDirectory, Filename),
         Date = DateTime.Now;
         Text = "";
     }
+
+
 }
 
